@@ -50,5 +50,4 @@ public class UserController {
                 .ok()
                 .body(userService.getUsersByType(UserType.valueOf(type)));
     }
-    // TODO: homework: endpoints for updating a user, deleting one, get all users filtered by tupe
 }
