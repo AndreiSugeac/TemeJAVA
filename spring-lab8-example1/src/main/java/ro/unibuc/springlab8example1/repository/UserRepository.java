@@ -40,7 +40,6 @@ public class UserRepository {
     }
 
     public User get(String username) {
-        // TODO : homework: use JOIN to fetch all details about the user
         return getUserWith(username);
     }
 
